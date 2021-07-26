@@ -23,6 +23,10 @@ Create Database:
 Migrate Database:
 
     $ rails db:migrate
+    
+Seed Database with sample data:
+
+    $ rails db:seed    
 
 Start Server:
 
