@@ -2,9 +2,7 @@ Rails.application.routes.draw do
   
   namespace :api do
     namespace :v1 do 
-      resources :facts
       resources :myths do 
-        resources :myths
         resources :facts
       end 
     end 
