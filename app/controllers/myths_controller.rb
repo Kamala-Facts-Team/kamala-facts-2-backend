@@ -1,2 +1,0 @@
-class MythsController < ApplicationController
-end
