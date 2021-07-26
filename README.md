@@ -1,24 +1,41 @@
-# README
+# The New And Improved Kamala Facts 2 Application
+ This application will be the Rails API for the new react application. The React repo is here:
+         <a href ="https://github.com/Sydnee510/kamala_facts_2_frontend" target="blank"> Kamala Facts 2 React App </a>
+         Clone it so you can see how it operates and lets get creative! 
+## DONT GET ME CONFUSED WITH KAMALA FACTS 1 
+Kamala Facts 1 application:
+         <a href ="https://kamalafacts.com/" target="blank"> Remember Me </a>
+         
+## Installation
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Clone this repo:
 
-Things you may want to cover:
+https://github.com/Sydnee510/kamala_facts_2_backend
 
-* Ruby version
+Install Dependicies:
 
-* System dependencies
+    $ bundle install
 
-* Configuration
+Create Database:
 
-* Database creation
+    $ rails db:create 
 
-* Database initialization
+Migrate Database:
 
-* How to run the test suite
+    $ rails db:migrate
 
-* Services (job queues, cache servers, search engines, etc.)
+Start Server:
 
-* Deployment instructions
+    $ rails s
 
-* ...
+ ## Framework
+
+ Ruby on Rails API
+
+ ## Database
+
+PostgreSQL
+
+ ## Want to contribute?
+Fill out this form: <a href="https://8chs9p8ozu1.typeform.com/to/qLkOY7W1" target="blank">Contribute</a>
+
