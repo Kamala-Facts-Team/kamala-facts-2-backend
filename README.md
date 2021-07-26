@@ -10,7 +10,7 @@ Kamala Facts 1 application:
 
 Clone this repo:
 
-https://github.com/Sydnee510/kamala_facts_2_backend
+https://github.com/Kamala-Facts-Team/kamala_facts_2_backend
 
 Install Dependicies:
 
