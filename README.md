@@ -6,6 +6,9 @@
 Kamala Facts 1 application:
          <a href ="https://kamalafacts.com/" target="blank"> Remember Me </a>
          
+## Live URL:         
+https://kamala-facts-2-backend.herokuapp.com/api/v1/myths
+
 ## Installation
 
 Clone this repo:
