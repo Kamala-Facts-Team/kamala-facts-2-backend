@@ -9,6 +9,9 @@ Kamala Facts 1 application:
 ## Live URL:         
 https://kamala-facts-2-backend.herokuapp.com/api/v1/myths
 
+## Gitpod:
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Kamala-Facts-Team/kamala-facts-2-backend)
+
 ## Installation
 
 Clone this repo:
