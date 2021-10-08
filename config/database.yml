@@ -24,6 +24,9 @@ default: &default
 development:
   <<: *default
   database: kamala_facts_2_backend_development
+  username:  <%= ENV['DBUSER'] %>
+  password: <%= ENV['DBPASS'] %>
+  host: <%= ENV['DBHOST'] %>
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
@@ -81,5 +84,6 @@ test:
 production:
   <<: *default
   database: kamala_facts_2_backend_production
-  username: kamala_facts_2_backend
-  password: <%= ENV['KAMALA_FACTS_2_BACKEND_DATABASE_PASSWORD'] %>
+  username:  <%= ENV['DBUSER'] %>
+  password: <%= ENV['DBPASS'] %>
+  host: <%= ENV['DBHOST'] %>

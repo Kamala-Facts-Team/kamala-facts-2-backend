@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+    web:
+        build: .
+        image: rails-docker
+        restart: "no"
+        environment:
+            # - ./.env
+            - DBHOST=postgresql
+            - DBUSER=kamala_facts_2_backend
+            - DBPASS=<%= ENV['KAMALA_FACTS_2_BACKEND_DATABASE_PASSWORD'] %>
+        ports:
+            - 3000:3000
+        depends_on:
+            - postgresql
+
+    postgresql:
+        image: postgres
+        restart: "no"
+        ports:
+            - 5432:5432
+        environment:
+            #  - ./.env
+            POSTGRES_DB: kamala_facts_2_backend_development
+            POSTGRES_USER: kamala_facts_2_backend
+            POSTGRES_PASSWORD: <%= ENV['KAMALA_FACTS_2_BACKEND_DATABASE_PASSWORD'] %>
+        volumes:
+            - postgresdb:/var/lib/postgresql/data/
+
+volumes:
+    postgresdb:
