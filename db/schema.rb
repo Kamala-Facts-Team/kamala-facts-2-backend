@@ -24,6 +24,7 @@ ActiveRecord::Schema.define(version: 2021_07_26_054337) do
   end
 
   create_table "myths", force: :cascade do |t|
+    t.text "title"
     t.text "lie_statement"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
