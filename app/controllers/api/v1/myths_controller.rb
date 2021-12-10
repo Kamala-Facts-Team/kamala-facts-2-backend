@@ -31,6 +31,6 @@ class Api::V1::MythsController < ApplicationController
     private
 
     def myth_params 
-        params.require(:myth).permit(:lie_statement)
+        params.require(:myth).permit(:title, :lie_statement)
     end
 end
